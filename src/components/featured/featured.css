@@ -1,0 +1,89 @@
+.projects__filter{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 1.9rem;
+    margin-bottom: 2rem;
+}
+
+.projects__item{
+    cursor: pointer;
+    font-weight: 600;
+    color: var(--color-black);
+    transition: .3s ease;
+}
+
+.projects__item:hover{
+    color: var(--color-main);
+}
+
+.denl__featured-projects__container{
+    display: grid;
+    grid-template-columns:repeat(auto-fill,minmax(300px,1fr)) ;
+    gap: 1rem;
+}
+
+.projects__thumbnail > img {
+    width: 100%;
+    height: 100%;
+}
+
+.projects__card {
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.projects__mask {
+    background: var(--color-main);
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    transition: .3s;
+    opacity: 0;
+}
+
+.projects__card:hover .projects__mask{
+    opacity: 0.8;
+}
+
+.projects__category{
+    color: var(--color-white);
+    top: 0;
+    left: 1.5rem;
+    font-size: 16px;
+    padding: 0.3rem 0.5rem;
+    display: inline-block;
+    position: absolute;
+    transform: translateY(-40px);
+    transition: .3s;
+  
+}
+
+.projects__title{
+    color: var(--color-white);
+    font-size: 35px;
+    margin: 0 0 1rem;
+    padding: 0 1rem;
+    position: absolute;
+    bottom: 1rem;
+    transform: translatey(30px);
+    transition: .3s ease;
+    opacity: 0;
+}
+
+
+.projects__card:hover .projects__title,
+.projects__card:hover .projects__category{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+@media screen and (max-width:1024px) {
+    .projects__filter{
+        justify-content: center;
+    }
+    
+}

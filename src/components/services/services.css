@@ -1,0 +1,128 @@
+.denl__services-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+
+}
+
+.denl__services-content{
+    flex: 1 ;
+    justify-content: center;
+    min-width: 260px;
+    max-width: 45%;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+.denl__services-icon{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 1rem;
+}
+
+.denl__services-icon > svg {
+    font-size: 100px;
+    color: var(--color-main);
+}
+.denl__services-heading{
+    color: var(--color-black);
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 22px;
+    max-width: 55%;
+    margin-bottom: 2rem;
+}
+
+.denl__services-text{
+    color: var(--color-grey);
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 19px;
+    margin-bottom: 1.5rem;
+}
+
+.denl__services-advantage{
+    margin-bottom: 1.5rem;
+}
+
+.denl__services-advantage > p{
+    color: var(--color-black);
+    font-family: var(--font-family);
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.denl__services-advantage > p > span {
+    margin-right: 1rem;
+    font-size: 18px;
+    color: var(--color-main);
+}
+
+.denl__services-button{
+   margin-bottom: 1rem;
+   
+}
+
+
+.denl__services-button > button > span{
+    padding-bottom: 2px;
+}
+
+.denl__services-button > button {
+    
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--color-white);
+    background-color: var(--color-black);
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    outline: none;
+    border: none;
+    transition: .5s ease;
+    padding: 10px 12px;
+}
+
+.denl__services-button > button:hover{
+    background-color: var(--color-main);
+}
+
+.arrow {
+    
+    font-size: 18px;
+    margin-right: 0.5rem;
+    color: var(--color-white);
+    display: none;
+    margin-bottom: 0;
+    /* display: flex; */
+    align-self: center;
+    justify-self: center;
+}
+
+.denl__services-button:hover .arrow{
+    display: flex;
+    color: var(--color-white);
+
+}
+
+
+
+@media screen and(max-width:1024px) {
+    .denl__services-list{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        
+    
+    }    
+}
+
+
+@media screen and(max-width:650px) {
+    .denl__services-heading{
+        max-width: 100%;
+        margin-bottom: 2rem;
+    }
+}

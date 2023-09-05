@@ -1,0 +1,31 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+
+:root{
+  --font-family:'Manrope',sans-serif;
+
+  --color-bg:#FFFFFF;
+  --color-white: #FFFFFF;
+  --color-black: #161616;
+  --color-grey:#979494;
+
+  --color-main:#FF4C02;
+  --color-dark:#E56130;
+}
+
+
+.header {
+  background-image: url(./assets/house-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
+/* .nav{
+ padding-top: 4rem;
+}  */
+
+.black{
+  background: var(--color-black);
+}

@@ -1,0 +1,155 @@
+ 
+
+
+
+.denl__header-content__top {
+    max-width:  50%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+
+
+.denl__header-content__heading {
+    color: var(--color-white);
+    font-size: 62px;
+    line-height: 75px;
+    letter-spacing: -0.02em;
+    font-family: var(--font-family);
+    font-weight: 800;
+}
+
+.denl__header-content__sub{
+    display: flex;
+    
+    flex-direction: row;
+    margin-top: 1.5rem;
+    align-items: center;
+}
+
+.denl__header-content__text{
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+    font-family: var(--font-family);
+    font-weight: normal;
+    color: var(--color-white);
+
+    
+}
+
+.denl__header-content__play{
+    display: none;
+}
+
+.denl__header-content__bottom {
+    
+    /* flex: 1; */
+    /* justify-content: center; */
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    bottom: 3rem;
+    flex-wrap: wrap;
+
+}
+
+.line{
+    height: 1px;
+    width: 70px;
+    background-color: var(--color-main);
+    margin-top: 0;
+    margin-bottom: 0.3rem;
+}
+
+
+.denl__header-bottom__content{
+    display: flex;
+
+    margin-top: 1rem;
+    /* max-width: 35%; */
+
+}
+
+.denl__header-bottom__content-box{
+ margin-right: 1.5rem;
+ color: var(--color-white);
+}
+
+
+
+
+
+.denl__header-bottom__content-black{
+    display: none;
+    background: black;
+    position: absolute;
+    color: white;
+    right: 0;
+    bottom: 0;
+    margin-right: 6rem;
+    margin-left: 2rem;
+    padding: 2rem;
+    font-size: 25px;
+    max-width: 200px;
+   
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1050px ) {
+    .denl__header{
+        flex-direction: column;
+    }
+
+    .denl__header-content{
+        margin: 0 0 2rem;
+    }
+    .denl__header-content__top {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width:650px){
+    .denl__header-content__heading{
+        font-size: 48px;
+        line-height: 60px;
+    }
+
+    .denl__header-content__text{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .denl__header-content__top {
+        max-width: 100%;
+    }
+    .denl__header-content__bottom{
+        margin-top: 0.5rem;
+    }
+    
+    .denl__header-bottom__content{
+        display: flex;
+        flex-direction: column;   
+        gap: 1rem;    
+    }
+
+    .denl__header-bottom__content-box{
+        align-items: center;
+        justify-content: center;
+       }
+
+       .denl__header-content{
+        margin: 0 0 1rem;
+    }
+}
+
