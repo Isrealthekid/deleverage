@@ -15,7 +15,7 @@ const Featured = () => {
     <div className='denl__featured section__padding' id='featured'>
       <div className="denl__featured-content">
       <h4 className="denl__featured-subheading">
-      Lorem ipsum dolor sit amet. in orange
+      Explore Our Recent Works 
       </h4>
 
       <h2 className="denl__featured-heading">

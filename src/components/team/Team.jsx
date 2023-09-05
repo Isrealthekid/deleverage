@@ -2,7 +2,8 @@ import React from 'react'
 import './team.css'
 import { BsInstagram,BsFacebook,BsTwitter } from 'react-icons/bs'
 import { FaArrowRightLong,FaArrowLeftLong } from 'react-icons/fa6'
-import IMG1 from "../../assets/drstrange.JPG"
+import IMG1 from "../../assets/team1.png"
+import IMG2 from "../../assets/team2.png"
 
 
 const Team = () => {
@@ -45,7 +46,7 @@ const Team = () => {
 
           <div className="denl__team-individual">
             <div className="denl__team-individual__image">
-              <img src={IMG1} alt="" />
+              <img src={IMG2} alt="" />
 
               <div className="socials">
               <BsInstagram/>

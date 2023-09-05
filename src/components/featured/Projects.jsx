@@ -1,8 +1,8 @@
-import Work1 from "../../assets/luke.jpg";
-import Work2 from "../../assets/red-house.jpg";
-import Work3 from "../../assets/avi-werd.jpg";
-import Work4 from "../../assets/brian-babb.jpg";
-import Work5 from "../../assets/lance.jpg";
+import Work1 from "../../assets/luke-min.jpg";
+import Work2 from "../../assets/lance-min.jpg";
+import Work3 from "../../assets/red-house-min.jpg";
+import Work4 from "../../assets/building-min.jpg";
+import Work5 from "../../assets/lance-min.jpg";
 import Work6 from "../../assets/building.jpg";
 
 
