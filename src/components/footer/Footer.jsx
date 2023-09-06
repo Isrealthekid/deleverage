@@ -15,17 +15,19 @@ const Footer = () => {
             </div>
 
             <p className="link">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-              A quos autem eos recusandae quo aspernatur rem repellat, 
-              cupiditate, nesciunt expedita, sequi quae ex perspiciatis. 
-              Harum aliquid delectus quasi qui, porro similique nihil dicta 
-              deserunt quos architecto ea sed optio ipsa unde. Explicabo 
-              blanditiis quis recusandae neque? Cupiditate, quam eligendi!
+            At Deleverage Construction Consulting,
+             we are committed to providing exceptional construction consulting 
+             services to help you achieve your project goals. 
+             Whether you're embarking on a new construction project,
+              seeking expert advice, or looking to collaborate, 
+              our team is here to assist you every step of the way. 
+              Feel free to get in touch with us using the information below,
+             and we'll be delighted to hear from you.
             </p>
 
             <div className="request-button">
                 <span>< FaArrowRightLong/></span>
-                <p>Request a quote</p>
+                <p>Connect With Us</p>
             </div>
           </div>
 
@@ -63,15 +65,18 @@ const Footer = () => {
               Quick Contact
             </div>
             <p className="link">
-              Lorem ipsum dolor sit amet consectetur adipisicing 
-              elit. Quis cupiditate ipsam iste praesentium 
-              ipsum accusantium debitis vel provident vitae velit?
+            Stay updated with the latest news, industry insights,
+            and project highlights by following us on social media.
+            You can find us on Facebook, Twitter, LinkedIn, and Instagram. Join our online community to engage in discussions,
+             receive updates, and connect with our team.
             </p>
           <div className="denl__footer-number">
               +234 567 890 1234
             </div>
 
-            <p className="link">2345 lorem Rd Ipsum, Lagos Nigeria.</p>
+            <p className="link">Deleverage Construction Consulting
+            123 Main Street
+            </p>
             
            <div className="social-button">
           <BsInstagram/>

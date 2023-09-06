@@ -2,12 +2,13 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap; 
-
+    justify-content: center;
 }
 
 .denl__services-content{
     flex: 1 ;
     justify-content: center;
+    
     min-width: 260px;
     max-width: 45%;
     margin-right: 2rem;
@@ -17,7 +18,6 @@
 
 .denl__services-icon{
     display: flex;
-    justify-content: flex-start;
     margin-bottom: 1rem;
 }
 
@@ -30,8 +30,10 @@
     font-family: var(--font-family);
     font-weight: 700;
     font-size: 22px;
-    max-width: 55%;
+    max-width: 100%;
     margin-bottom: 2rem;
+
+    justify-self: center;
 }
 
 .denl__services-text{
@@ -40,6 +42,8 @@
     font-weight: 500;
     font-size: 19px;
     margin-bottom: 1.5rem;
+
+    justify-self: center;
 }
 
 .denl__services-advantage{
@@ -49,7 +53,7 @@
 .denl__services-advantage > p{
     color: var(--color-black);
     font-family: var(--font-family);
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
 
 }
@@ -117,12 +121,36 @@
         
     
     }    
+
+   
 }
 
 
 @media screen and(max-width:650px) {
+    .denl__services-list{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap; 
+       justify-content: center;
+    
+    }
     .denl__services-heading{
         max-width: 100%;
         margin-bottom: 2rem;
     }
+
+
+    .denl__services-icon{
+       justify-content: center;
+    }
+    
+    .denl__services-content{
+        flex: 1 ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-width: 260px;
+    
+    }
+
 }

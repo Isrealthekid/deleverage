@@ -38,7 +38,7 @@ const Team = () => {
             </div>
             
             <div className="denl__team-individual__details">
-              <p className="name">John doe</p>
+              <p className="name">Engr. Tope Emmanuel</p>
               <p className="post">CEO</p>
 
             </div>
@@ -57,7 +57,7 @@ const Team = () => {
             </div>
             
             <div className="denl__team-individual__details">
-              <p className="name">John doe</p>
+              <p className="name">Engr. John doe</p>
               <p className="post">CEO</p>
 
             </div>
@@ -76,7 +76,7 @@ const Team = () => {
             </div>
             
             <div className="denl__team-individual__details">
-              <p className="name">John doe</p>
+              <p className="name">Arc. Solomon Ade</p>
               <p className="post">CEO</p>
 
             </div>

@@ -23,15 +23,16 @@ const Services = () => {
         </div>
         
         <div className="denl__services-text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-          Qui aliquid, incidunt magni ex, sint iure vitae id modi, 
-          pariatur porro voluptatum sit? Eligendi, quaerat provident.
-        </div>
+        Deleverage Construction Consulting: 
+        Expert architects craft your vision into 
+        practical, beautiful structures, 
+        laying the foundation for project success.
+      </div>
 
         <div className="denl__services-advantage">
-          <p> <span><FcCheckmark/></span> lorem ipsum</p>
-          <p> <span><FcCheckmark/></span> lorem ipsum</p>
-          <p> <span><FcCheckmark/></span> lorem ipsum</p>
+          <p> <span><FcCheckmark/></span> Cognitive Architecture</p>
+          <p> <span><FcCheckmark/></span> Enterprise Architecture</p>
+          <p> <span><FcCheckmark/></span> Architectural Designs</p>
         </div>
 
         <div className='denl__services-button'>
@@ -48,19 +49,19 @@ const Services = () => {
         </div>
 
         <div className="denl__services-heading">
-          Safety & Awearness
+          Construction Consultant
         </div>
         
         <div className="denl__services-text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-          Qui aliquid, incidunt magni ex, sint iure vitae id modi, 
-          pariatur porro voluptatum sit? Eligendi, quaerat provident.
+          Count on Deleverage Construction Consulting as 
+          your dependable partner for end-to-end construction solutions. 
+          We transform your vision into reality, on time and budget.
         </div>
 
         <div className="denl__services-advantage">
-          <p> <span><FcCheckmark/></span> lorem ipsum</p>
-          <p> <span><FcCheckmark/></span> lorem ipsum</p>
-          <p> <span><FcCheckmark/></span> lorem ipsum</p>
+          <p> <span><FcCheckmark/></span> Construction Consultant</p>
+          <p> <span><FcCheckmark/></span> Contract Administrator</p>
+          <p> <span><FcCheckmark/></span> Consulting Engineer</p>
         </div>
 
         <div className='denl__services-button'>
@@ -77,19 +78,18 @@ const Services = () => {
         </div>
 
         <div className="denl__services-heading">
-          Consulting & Construction
+          Construction Management
         </div>
         
         <div className="denl__services-text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-          Qui aliquid, incidunt magni ex, sint iure vitae id modi, 
-          pariatur porro voluptatum sit? Eligendi, quaerat provident.
+        Deleverage Construction Consulting: Your strategic partner for precise, on-time,
+         and budget-friendly construction management, backed by industry expertise
         </div>
-
+      
         <div className="denl__services-advantage">
-          <p> <span><FcCheckmark/></span> lorem ipsum</p>
-          <p> <span><FcCheckmark/></span> lorem ipsum</p>
-          <p> <span><FcCheckmark/></span> lorem ipsum</p>
+          <p> <span><FcCheckmark/></span> Design & Build contracts</p>
+          <p> <span><FcCheckmark/></span> Planning and Scheduling</p>
+          <p> <span><FcCheckmark/></span> Design-build Contracts</p>
         </div>
 
         <div className='denl__services-button'>

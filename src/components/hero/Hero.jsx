@@ -32,7 +32,7 @@ const Hero = () => {
             <div className="line"></div>
             <h4>Powerful Strategy</h4>
 
-            <p>High security requirements 
+            <p>High Safety requirements 
               and highest local standards
             </p>
           </div>
